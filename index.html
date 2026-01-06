@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>KNOWLEDGE HUB INDIA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+<script type="text/javascript" src="scripts.js"></script>
+
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+
+<style>
+
+/* DO NOT OVERRIDE BOOTSTRAP CONTAINER */
+.custom-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* HEADER MENU UNDERLINE */
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width 0.3s;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+</style>
+
+</head>
+
+<body class="bg-gray-50">
+<!--  HEARDER   -->
+<!-- TOP INFO BAR -->
+<div class="bg-dark text-white text-sm py-2">
+    <div class="container-fluid px-3 px-lg-5 d-flex justify-content-between align-items-center flex-wrap">
+
+        <div class="d-flex gap-4">
+            <span><i class="bi bi-envelope"></i> info@technokidsindia.com</span>
+            <span><i class="bi bi-telephone"></i> +91-40-6550 1550</span>
+        </div>
+
+        <div class="d-flex gap-3">
+            <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+    </div>
+</div>
+
+<!-- MAIN NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container-fluid px-3 px-lg-5">
+
+        <!-- LOGO -->
+        <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+            <img src="images\KHub_logo.png" alt="Logo">
+            <!-- <span>THE KNOWLEDGE HUB</span> -->
+        </a>
+
+        <!-- MOBILE TOGGLE -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENU -->
+        <div class="collapse navbar-collapse" id="mainNav">
+
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-semibold gap-lg-4">
+                <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">KNOWLEDGE HUB</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+            </ul>
+
+            <!-- RIGHT ICONS -->
+            <div class="d-flex align-items-center gap-3">
+
+                <!-- SEARCH -->
+                <a href="#" class="text-dark fs-5">
+                    <i class="bi bi-search"></i>
+                </a>
+
+                <!-- CART -->
+                <div class="position-relative">
+                    <a href="#" class="text-dark fs-5">
+                        <i class="bi bi-cart"></i>
+                    </a>
+                    <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        2
+                    </span>
+                </div>
+
+                <!-- ENROLL BUTTON -->
+                <a href="#" class="btn btn-dark rounded-pill px-4 fw-semibold">
+                    Enroll Now
+                </a>
+
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- HEADER ENND -->
+
+<!-- HERO SECTION -->
+<section class="position-relative min-vh-100 d-flex align-items-center overflow-hidden">
+
+    <!-- Background Image -->
+    <div class="position-absolute inset-0">
+    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf"
+         class="w-100 h-100 object-fit-cover" alt="Learning">
+    <div class="position-absolute inset-0 bg-dark opacity-75"></div>
+</div>
+
+<div class="container position-relative z-10">
+    <div class="row align-items-center g-5">
+
+        <!-- LEFT CONTENT -->
+        <div class="col-lg-6 text-white animate__animated animate__fadeInLeft">
+
+            <span class="inline-flex items-center gap-2 text-sm bg-white/10 px-4 py-2 rounded-full mb-4">
+                📘 Keep Learning
+            </span>
+
+            <h1 class="display-4 fw-bold leading-tight">
+                Empowering <br>
+                Learning for <br>
+                <span class="text-warning">Everyone</span>
+            </h1>
+
+            <p class="mt-4 text-lg text-gray-200">
+                Transformed Learning with Advanced eLearning Solutions.
+            </p>
+
+            <div class="mt-5 d-flex align-items-center gap-4 flex-wrap">
+                <a href="#" class="btn btn-light rounded-pill px-4 py-2 fw-semibold">
+                    Find Courses →
+                </a>
+
+                <div class="text-sm">
+                    ⭐ 4.8 Rating <br>
+                    <span class="text-success">Trustpilot</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT CONTENT (CARDS) -->
+        <div class="col-lg-6 animate__animated animate__fadeInRight">
+
+            <div class="row g-4 align-items-stretch">
+
+                <!-- LEFT STACKED CARDS -->
+                <div class="col-md-6 d-flex flex-column gap-4">
+
+                  <div class="bg-white rounded-xl shadow-lg p-4 hover:scale-105 transition flex-fill">
+
+                    <div class="text-center mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/LEGO_logo.svg"
+                             style="height:40px" alt="">
+                    </div>
+
+                    <ul class="text-sm text-gray-600 space-y-1 text-start">
+                        <li>✔ Grades K–10</li>
+                        <li>✔ AI-driven features</li>
+                        <li>✔ STEAM Skills</li>
+                    </ul>
+
+                  </div>
+
+
+                  <div class="bg-white rounded-xl shadow-lg p-4 hover:scale-105 transition flex-fill">
+
+                    <div class="text-center mb-3">
+                        <img src="images/ict.jpg"
+                             style="width:80px;height:80px" alt="">
+                    </div>
+
+                    <ul class="text-sm text-gray-600 space-y-1 text-start">
+                        <li>✔ Expanded Coding</li>
+                        <li>✔ Modern Platform</li>
+                        <li>✔ Flexible Licensing</li>
+                    </ul>
+
+                  </div>
+
+                </div>
+
+                <!-- RIGHT BIG CARD -->
+                <div class="col-md-6 d-flex">
+
+                  <div class="bg-white rounded-xl shadow-lg p-5 hover:scale-105 transition w-100 d-flex flex-column justify-content-center">
+
+                    <div class="text-center mb-4">
+                        <img src="images/robotic.png"
+                             style="width:100px;height:100px" alt="">
+                    </div>
+
+                    <h5 class="fw-bold mb-3 text-start" style="text-align:center !important">ICT 360</h5>
+
+                    <ul class="text-sm text-gray-600 space-y-2 text-start">
+                        <li>✔ Classroom Management</li>
+                        <li>✔ Project-Based Learning</li>
+                        <li>✔ Digital Platform</li>
+                    </ul>
+
+                  </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</section>
+
+<section class="py-20 bg-white">
+  <div class="container">
+
+    <div class="row align-items-center g-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6">
+
+        <span class="badge bg-primary px-4 py-2 rounded-pill mb-3">
+          About Knowledge Hub
+        </span>
+
+        <h2 class="fw-bold display-6 mb-4">
+          Transforming Education Through
+          <span class="text-primary">Innovation & Technology</span>
+        </h2>
+
+        <p class="text-muted mb-4">
+          Knowledge Hub Solutions India Private Limited is committed to enhancing
+          education through ICT-driven solutions, AI-powered learning platforms,
+          and future-ready digital skills. We collaborate with institutions to
+          create engaging, interactive, and cloud-based learning environments.
+        </p>
+
+        <!-- READ MORE BUTTON -->
+        <a href="about.html"
+           class="btn btn-primary rounded-pill px-4 py-2 fw-semibold">
+          Read More →
+        </a>
+
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6">
+        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655"
+             class="img-fluid rounded-3xl shadow-lg"
+             alt="Education Technology">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="py-20 bg-gray-50">
+  <div class="container">
+
+    <div class="text-center mb-12">
+      <h2 class="fw-bold display-6">Our Purpose</h2>
+      <p class="text-muted mt-2">
+        What drives us forward every day
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- MISSION -->
+      <div class="col-md-4">
+        <div class="bg-white p-5 rounded-xl shadow h-100 text-center">
+          <i class="bi bi-bullseye text-primary fs-1 mb-3"></i>
+          <h5 class="fw-bold">Our Mission</h5>
+          <p class="text-muted mt-2">
+            To empower educators and learners with innovative digital tools
+            that enhance learning outcomes and foster creativity.
+          </p>
+        </div>
+      </div>
+
+      <!-- VISION -->
+      <div class="col-md-4">
+        <div class="bg-white p-5 rounded-xl shadow h-100 text-center">
+          <i class="bi bi-eye text-primary fs-1 mb-3"></i>
+          <h5 class="fw-bold">Our Vision</h5>
+          <p class="text-muted mt-2">
+            To become a global leader in education technology by shaping
+            the future of learning through AI and innovation.
+          </p>
+        </div>
+      </div>
+
+      <!-- VALUES -->
+      <div class="col-md-4">
+        <div class="bg-white p-5 rounded-xl shadow h-100 text-center">
+          <i class="bi bi-heart text-primary fs-1 mb-3"></i>
+          <h5 class="fw-bold">Our Values</h5>
+          <p class="text-muted mt-2">
+            Innovation, integrity, inclusivity, and lifelong learning
+            are at the core of everything we do.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="py-20 bg-gray-50">
+  <div class="container">
+
+    <!-- SECTION HEADER -->
+    <div class="text-center mb-5">
+      <span class="badge bg-primary px-4 py-2 rounded-pill mb-3">
+        Knowledge Hub
+      </span>
+      <h2 class="fw-bold display-6">
+        Insights on <span class="text-primary">Education & Technology</span>
+      </h2>
+      <p class="text-muted mt-3">
+        Explore articles, trends, and resources shaping the future of learning.
+      </p>
+    </div>
+
+    <!-- CATEGORIES -->
+    <div class="d-flex justify-content-center flex-wrap gap-3 mb-5">
+      <button class="btn btn-outline-primary rounded-pill active">All</button>
+      <button class="btn btn-outline-primary rounded-pill">EdTech</button>
+      <button class="btn btn-outline-primary rounded-pill">AI in Education</button>
+      <button class="btn btn-outline-primary rounded-pill">LMS</button>
+    </div>
+
+    <!-- POSTS GRID -->
+    <div class="row g-4" id="knowledgeGrid">
+
+      <!-- CARD 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm h-100 hover-scale">
+          <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e"
+               class="card-img-top" alt="EdTech">
+
+          <div class="card-body">
+            <span class="badge bg-light text-primary mb-2">EdTech</span>
+            <h5 class="fw-bold mt-2">
+              The Role of EdTech in Modern Classrooms
+            </h5>
+            <p class="text-muted small">
+              Discover how educational technology is transforming teaching
+              and student engagement worldwide.
+            </p>
+            <a href="#" class="fw-semibold text-primary text-decoration-none">
+              Read More →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm h-100 hover-scale">
+          <img src="images/ai-powered-learning.jpg"
+               class="card-img-top" alt="AI Education" style="height:198px">
+
+          <div class="card-body">
+            <span class="badge bg-light text-primary mb-2">AI in Education</span>
+            <h5 class="fw-bold mt-2">
+              AI-Powered Learning: What Schools Should Know
+            </h5>
+            <p class="text-muted small">
+              Learn how artificial intelligence personalizes learning
+              and improves academic outcomes.
+            </p>
+            <a href="#" class="fw-semibold text-primary text-decoration-none">
+              Read More →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm h-100 hover-scale">
+          <img src="images/lms.jpg"
+               class="card-img-top" alt="LMS" style="height:198px">
+
+          <div class="card-body">
+            <span class="badge bg-light text-primary mb-2">LMS</span>
+            <h5 class="fw-bold mt-2">
+              Choosing the Right Learning Management System
+            </h5>
+            <p class="text-muted small">
+              A guide to selecting an LMS that fits institutional needs
+              and learner goals.
+            </p>
+            <a href="#" class="fw-semibold text-primary text-decoration-none">
+              Read More →
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- LOAD MORE -->
+    <div class="text-center mt-5">
+      <button class="btn btn-primary rounded-pill px-5 py-2 fw-semibold">
+        Load More
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="py-20 bg-gray-50">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <span class="badge bg-primary px-4 py-2 rounded-pill mb-3">
+        Our Shop
+      </span>
+      <p class="text-muted mt-3">
+        Courses, eBooks, and digital tools curated for smart education and future-ready learning.
+      </p>
+    </div>
+
+    <div class="row g-5">
+
+      <!-- LEFT FILTER -->
+      <div class="col-lg-3">
+        <div class="bg-white rounded-xl shadow p-4 sticky-top" style="top:100px">
+          <h5 class="fw-bold mb-4">Categories</h5>
+
+          <button class="filter-btn active" data-filter="all">All Products</button>
+          <button class="filter-btn" data-filter="courses">Courses</button>
+          <button class="filter-btn" data-filter="ebooks">eBooks</button>
+          <button class="filter-btn" data-filter="tools">Digital Tools</button>
+        </div>
+      </div>
+
+      <!-- PRODUCTS -->
+      <div class="col-lg-9">
+        <div class="row g-4" id="productGrid">
+
+          <!-- PRODUCT -->
+          <div class="col-md-6 col-lg-4 product-item courses">
+            <div class="product-card">
+              <img src="images/ict.jpg" alt="">
+              <div class="p-4">
+                <h6 class="fw-bold">AI in Education</h6>
+                <p class="text-muted small">
+                  Learn AI-driven teaching methodologies.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="fw-bold">₹1,499</span>
+                  <button class="btn btn-primary btn-sm rounded-pill">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 product-item tools">
+            <div class="product-card">
+              <img src="images/ai-powered-learning.jpg" alt="">
+              <div class="p-4">
+                <h6 class="fw-bold">STEM Robotics Kit</h6>
+                <p class="text-muted small">
+                  Hands-on robotics learning solution.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="fw-bold">₹3,999</span>
+                  <button class="btn btn-primary btn-sm rounded-pill">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 product-item ebooks">
+            <div class="product-card">
+              <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794" alt="">
+              <div class="p-4">
+                <h6 class="fw-bold">Digital Classroom Guide</h6>
+                <p class="text-muted small">
+                  eBook for modern smart classrooms.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="fw-bold">₹799</span>
+                  <button class="btn btn-primary btn-sm rounded-pill">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DUPLICATE AS NEEDED (8–10 ITEMS) -->
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="contact-cta position-relative text-white">
+  <div class="overlay"></div>
+
+  <div class="container position-relative text-center py-5">
+
+    <h2 class="fw-bold display-6 mb-3 text-white">
+      Let’s Build the Future of Learning Together
+    </h2>
+
+    <p class="mb-4 opacity-75">
+      Get in touch with us to explore partnerships, services, or demos.
+    </p>
+
+    <div class="row justify-content-center g-4 mt-4">
+
+      <div class="col-md-4">
+        <div class="contact-box">
+          <i class="bi bi-geo-alt fs-2 mb-2"></i>
+          <p class="mb-0">
+            Madhapur, Hyderabad, India
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="contact-box">
+          <i class="bi bi-envelope fs-2 mb-2"></i>
+          <p class="mb-0">
+            info@knowledgehubindia.com
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="contact-box">
+          <i class="bi bi-telephone fs-2 mb-2"></i>
+          <p class="mb-0">
+            +91 40 6550 1550
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+© 2026 Knowledge Hub India.
+</footer>
+
+<!-- CHATBOT -->
+<div class="chat-toggle" onclick="toggleChat()">
+<i class="bi bi-chat-dots-fill"></i>
+</div>
+
+<div class="chatbot card">
+<div class="chat-header">AI Assistant</div>
+<div class="chat-body" id="chatBody">
+<p><strong>Bot:</strong> Hi! How can I help you today?</p>
+</div>
+<div class="chat-footer">
+<input type="text" id="userInput" placeholder="Ask about courses, services..."
+onkeypress="handleEnter(event)">
+</div>
+</div>
+
+<!-- JS -->
+<script>
+function toggleChat(){
+document.querySelector('.chatbot').style.display =
+document.querySelector('.chatbot').style.display === 'block' ? 'none' : 'block';
+}
+
+function handleEnter(e){
+if(e.key === 'Enter'){
+let input = e.target.value;
+if(!input) return;
+
+let chatBody = document.getElementById('chatBody');
+chatBody.innerHTML += `<p><strong>You:</strong> ${input}</p>`;
+
+let reply = "We offer IT solutions, STEM, robotics training, and e-learning platforms.";
+chatBody.innerHTML += `<p><strong>Bot:</strong> ${reply}</p>`;
+
+e.target.value = '';
+chatBody.scrollTop = chatBody.scrollHeight;
+}
+}
+</script>
+
+<script>
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const products = document.querySelectorAll('.product-item');
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Remove active class from all buttons
+      filterButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.dataset.filter;
+
+      products.forEach(product => {
+        if (filter === 'all') {
+          product.style.display = 'block';
+        } else {
+          if (product.classList.contains(filter)) {
+            product.style.display = 'block';
+          } else {
+            product.style.display = 'none';
+          }
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
